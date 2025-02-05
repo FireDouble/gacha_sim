@@ -45,7 +45,7 @@
             ];
           };
 
-          default = self.packages.${system}.frontend;
+          default = self.packages.${system}.backend;
         };
 
         devShells.default = pkgs.mkShell {
