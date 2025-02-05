@@ -1,0 +1,17 @@
+{
+  "name": "gacha_sim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "watch": "tailwindcss build -o src/tailwind.css --watch",
+    "build": "tailwindcss build -o src/tailwind.css && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.15.0",
+    "vite": "^6.0.5"
+  }
+}
