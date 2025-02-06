@@ -13,7 +13,7 @@
 /frontend/dist
 /frontend/dist-ssr
 /frontend/*.local
-/frontend/src/out
+/frontend/out/*
 
 # Editor directories and files
 .vscode/*
