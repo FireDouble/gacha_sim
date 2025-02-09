@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "watch": "tailwindcss build -o src/tailwind.css --watch",
-    "build": "tailwindcss build -o src/tailwind.css && vite build",
+    "watch": "tailwindcss -o src/tailwind.css --watch",
+    "build": "tailwindcss -o src/tailwind.css && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "svelte": "^5.15.0",
-    "vite": "^6.0.5"
+    "tailwindcss": "^4.0.4",
+    "vite": "^6.1.0"
   }
 }
